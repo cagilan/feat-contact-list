@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Things to highlight
+
+* Developed using React Components, Services. 
+* Generic components for the Header, Card, Footer etc., which will reuse throughout the SPA
+* Used Lighthouse tool for the performance checks
+* Added pagination on page scroll event (The scrolling package helpers used for scroll events which loads default of 50 responses)
+* Added the filters for the contact search
+* Test cases added for the components
+* Responsive web design using fluid media query used for mobile, tab and browsers
+* SASS-LESS used for styling
+* Screenshot added for test report coverage, Responsive design, website page
+
+## Proposed Ideas/Improvements for future enhancements
+
+* Performance test automation using Webvitals
+* Add e2e steps
+* Add the tab navigation as per the requirement (Started but not yet completed. Need some more time)
+
+## Behavior
+* The contacts should be grouped in tabs - Not completed
+* When clicking on a contact, its card should be displayed - Completed
+* When clicking on the close button of a card, it should disappear - Completed
+* While a contact card is being displayed, if another contact is clicked, the first - Completed
+* clicked contact card should disappear - Completed
+* Added search filter - Added from user perspective to search the contact list easily
+* Added the filter contact by Language/Nationality - Added from user perspective to search the contact list easily
